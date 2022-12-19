@@ -1,0 +1,149 @@
+* {
+    font-family: 'Overpass', sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    margin-top: 0;
+}
+
+.paragraph {
+    padding: 0;
+}
+
+.question {
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    width: 400px;
+    border-radius: 25px;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 27.5px;
+    border: none;
+    background-color: hsl(213, 20%, 26%);
+    color: hsl(217, 12%, 63%);
+    transition: background-color .2s ease-in-out;
+}
+
+.buttons button:last-of-type {
+    margin-right: 0px;
+}
+
+img {
+    width: 20px;
+    padding: 0;
+}
+
+.submit button {
+    border-radius: 50px;
+    height: 50px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2px;
+    transition: background-color .2s ease-in-out;
+}
+
+.submit {
+    padding: 25px 0 0 0;
+}
+
+.star {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: hsl(213, 20%, 26%);
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.submit button:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+div.buttons button.active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneImage {
+    width: 200px;
+}
+
+.paragraphThanks {
+    text-align: center;
+}
+
+.srbackground {
+    display: flex;
+    background-color: hsl(213, 20%, 26%);
+    width: 200px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#selectedRating {
+    margin: auto;
+    color: hsl(25, 97%, 53%);
+}
+
+
+.hide {
+    display: none;
+}
